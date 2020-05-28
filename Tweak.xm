@@ -6,8 +6,3 @@
 	return 6;
 }
 %end
-%hook SBDockIconListView
-+ (NSUInteger)maxIcons {
-	return 5;
-}
-%end
